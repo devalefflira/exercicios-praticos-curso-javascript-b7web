@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaSCript | Módulo 2 - Aula 2</title>
+    <link rel="stylesheet" type="text/css" href="/evento-de-teclado.css" />
+  </head>
+  <body>
+    <h1>Evento de Teclado</h1>
+    <h2>Digite algo</h2>
+    <p>Após digitar qualquer tecla aparecerá no console o evento.</p>
+
+    <div class="container">
+      <input type="text" class="campo" onkeyup="digitou()" />
+    </div>
+
+    <h2>Qual foi a tecla digitada?</h2>
+    <p>No console será mostrada a tecla digitada.</p>
+
+    <div class="container">
+      <input type="text" class="campo" onkeyup="mostreTecla(event)" />
+    </div>
+
+    <h2>Apenas a Tecla Enter</h2>
+    <p>Será apresentado o evento apenas se digitar a tecla "Enter"</p>
+
+    <div class="container">
+      <input
+        type="text"
+        id="enter"
+        class="campo"
+        onkeyup="digitouEnter(event)"
+      />
+    </div>
+
+    <h2>Combinando teclas: Ctrl + Enter</h2>
+    <p>Será apresentado o evento apenas se digitar a combinação das teclas.</p>
+
+    <div class="container">
+      <input
+        type="text"
+        id="ctrlEnter"
+        class="campo"
+        onkeyup="ctrlEnter(event)"
+      />
+    </div>
+
+    <script type="text/javascript" src="/evento-de-teclado.js"></script>
+  </body>
+</html>
