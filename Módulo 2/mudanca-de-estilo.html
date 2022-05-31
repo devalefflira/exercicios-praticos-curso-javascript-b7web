@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript | Módulo 2 - Aula 3</title>
+    <link rel="stylesheet" type="text/css" href="/mudanca-de-estilo.css" />
+  </head>
+  <body>
+    <h1>Mudança de Estilo</h1>
+    <p>
+      Clique no botão desejado e mude a cor do background do elemento abaixo:
+    </p>
+
+    <h2 id="titulo">Mude o Background</h2>
+
+    <div class="btn-container">
+      <button class="btn-azul" onclick="ficaAzul()">Azul</button>
+      <button class="btn-vermelho" onclick="ficaVermelho()">Vermelho</button>
+      <button class="btn-verde" onclick="ficaVerde()">Verde</button>
+    </div>
+
+    <h3>Mostrar número de telefone oculto (clique no botão logo abaixo)</h3>
+
+    <h2 id="telefone" style="display: none">(99)9 9999-9999</h2>
+
+    <div class="btn-container">
+      <button class="btn-mostrar" onclick="mostrarTelefone()">Mostrar</button>
+    </div>
+
+    <script type="text/javascript" src="/mudanca-de-estilo.js"></script>
+  </body>
+</html>

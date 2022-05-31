@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  width: 300px;
+  height: 80px;
+  border: 3px solid #000000;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.azul {
+  background-color: #0000ff;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.vermelho {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.verde {
+  background-color: #00ff00;
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-azul,
+.btn-vermelho,
+.btn-verde {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+.btn-azul:active {
+  background-color: #0000ff;
+  border: 3px solid darkblue;
+  box-shadow: -1px -1px 1px #000000;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.btn-vermelho:active {
+  background-color: #ff0000;
+  border: 3px solid darkred;
+  box-shadow: -1px -1px 1px #000000;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.btn-verde:active {
+  background-color: #00ff00;
+  border: 3px solid darkgreen;
+  box-shadow: -1px -1px 1px #000000;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+h3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#telefone {
+  width: 200px;
+  height: 30px;
+  border: 3px solid #000000;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.btn-mostrar {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+.btn-mostrar:active {
+  background-color: #222222;
+  border: 3px solid #888888;
+  box-shadow: -1px -1px 1px #000000;
+  color: #ffffff;
+  transform: scale(1.2);
+}
